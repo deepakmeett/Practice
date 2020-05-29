@@ -2,11 +2,11 @@ package com.company.Others.PendingCode;
 //public class OctToBinSec {
 //    public static void main(String[] args) {
 // Java program to convert
-// Octal number to Binary
+// Octal number to Node
 import java.util.*;
 class Solution {
     // Function to convert an
-// Octal to Binary Number
+// Octal to Node Number
     static String OctToBin(String octnum) {
         long i = 0;
         String binary = "";
@@ -49,7 +49,7 @@ class Solution {
     public static void main(String args[]) {
         // Get the Hexadecimal number
         String octnum = "33";
-        // Convert Ocatl to Binary
-        System.out.println("Equivalent Binary Value = " + OctToBin(octnum));
+        // Convert Ocatl to Node
+        System.out.println("Equivalent Node Value = " + OctToBin(octnum));
     }
 }
