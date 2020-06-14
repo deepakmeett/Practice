@@ -1,6 +1,5 @@
 package com.example.practice.LinkedList;
 import java.util.LinkedList;
-import java.util.Objects;
 public class InkedList {
 
     public static void main(String[] args) {
@@ -9,7 +8,7 @@ public class InkedList {
 
         //Adding element to the linked list
         
-        linkedList.addLast( "C" );
+        linkedList.addLast( "L" );
         linkedList.add( "A" );
         linkedList.add( "B" );
         linkedList.add( "E" );
@@ -25,7 +24,7 @@ public class InkedList {
         linkedList.removeLast();
         System.out.println( linkedList );
         
-        //Finding element in in the linked list  
+        //Finding element in the linked list  
         boolean ifPresent = linkedList.contains( "E" );
         if (ifPresent){
             System.out.println( "'E'+Yes" );
@@ -39,11 +38,10 @@ public class InkedList {
         System.out.println( size );
 
         // Get and set elements from linked list
+        System.out.println( "Now we have this is linkedList " + linkedList );
         Object element = linkedList.get( 1 );
-        System.out.println( element );
+        System.out.println("get " + element );
         linkedList.set( 2, "T" );
         System.out.println( linkedList );
-        
-        
     }
 }

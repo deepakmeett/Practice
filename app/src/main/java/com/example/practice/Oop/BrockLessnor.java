@@ -1,12 +1,12 @@
 package com.example.practice.Oop;
 
-public class Brock {
+public class BrockLessnor {
     String color;
     int age;
 
     public static void main(String[] args) {
         
-        Brock work = new Brock();
+        BrockLessnor work = new BrockLessnor();
         work.rock( "fair", 50 );
         work.rack();
 
