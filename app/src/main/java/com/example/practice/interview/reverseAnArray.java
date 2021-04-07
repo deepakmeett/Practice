@@ -6,7 +6,7 @@ public class reverseAnArray {
         int[] integerArray = {4, 5, 1, 2};
         
         for (int i = 0; i < integerArray.length; i++) {
-            int index = (integerArray.length)-i;
+            int index = (integerArray.length-1)-i;
             System.out.print(integerArray[index]+", ");
         }
     }
