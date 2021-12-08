@@ -7,10 +7,8 @@ public class LoopTwo {
 
         int row = 1;
         while(row <= n){
-
             int col = 1;
             while (col <= (n-row)+1){
-
                 System.out.print("*");
                 col = col + 1;
             }

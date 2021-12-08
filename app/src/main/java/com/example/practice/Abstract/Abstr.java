@@ -10,8 +10,10 @@ abstract class Abstr { //And necessary to use "abstract" name with this class. A
 class Car extends Abstr {//If any class extending abstract class then it will have that abstract method with body
 
     void start() {
-        System.out.print( "Car start with key" );
     }
+//    void start() {
+//        System.out.print( "Car start with key" );
+//    }
 }
 
 class Scooter extends Abstr {
@@ -22,8 +24,7 @@ class Scooter extends Abstr {
 
     public static void main(String[] args) {
         //We can not create an object of Abstract class. But we can create reference of that
-        
-        Car car = new Car(); 
+        Car car = new Car();
         car.start();
         System.out.println();
         Scooter scooter = new Scooter();
